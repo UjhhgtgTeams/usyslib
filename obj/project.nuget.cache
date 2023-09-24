@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mMpFbvbxJrQBy4HgrA12SXBqI7khQTQuX4CCx90ybScQWztgL1Hrg36WNbRgzBOYFofRbwc5U9k+fz0wvC/CYQ==",
+  "dgSpecHash": "PdKcPIJzlVB2+vf6IGrWfxmilW5/Byt2oUCh9sYchZ8iVUVfVnJTYDEy2BOvE3qLqRrT/imZELwUlGu04t2mvA==",
   "success": true,
   "projectFilePath": "/home/ujhhgtg/Documents/Code/usyslib/usyslib.csproj",
   "expectedPackageFiles": [
+    "/home/ujhhgtg/.nuget/packages/system.codedom/7.0.0/system.codedom.7.0.0.nupkg.sha512",
+    "/home/ujhhgtg/.nuget/packages/system.management/7.0.2/system.management.7.0.2.nupkg.sha512",
     "/home/ujhhgtg/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
   ],
   "logs": []

@@ -86,9 +86,6 @@ public class Window
 
     [DllImport("kernel32.dll")]
     private static extern IntPtr GetModuleHandle(string lpModuleName);
-
-    [DllImport("user32.dll")]
-    private static extern IntPtr CallNextHookEx(IntPtr hhk, int nCode, IntPtr wParam, IntPtr lParam);
     #endregion
     #region for system dlls
     public enum GWL
@@ -166,23 +163,6 @@ public class Window
         SHOWWINDOW = 0x0040,
         NOSIZE = 0x0001,
         NOZORDER = 0x0004,
-    }
-
-    public enum WH : int
-    {
-        KEYBOARD_LL = 13,
-        MOUSE_LL = 14
-    }
-
-    public enum WM : int
-    {
-        KEYDOWN = 0x0100,
-        KEYUP = 0x0101,
-        MOUSEMOVE = 0x0200,
-        LBUTTONDOWN = 0x0201,
-        LBUTTONUP = 0x0202,
-        RBUTTONDOWN = 0x0204,
-        RBUTTONUP = 0x0205
     }
     #endregion
 }

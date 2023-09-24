@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mMpFbvbxJrQBy4HgrA12SXBqI7khQTQuX4CCx90ybScQWztgL1Hrg36WNbRgzBOYFofRbwc5U9k+fz0wvC/CYQ==",
+  "success": true,
+  "projectFilePath": "/home/ujhhgtg/Documents/Code/usyslib/usyslib.csproj",
+  "expectedPackageFiles": [
+    "/home/ujhhgtg/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
